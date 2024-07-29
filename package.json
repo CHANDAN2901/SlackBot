@@ -1,0 +1,30 @@
+{
+  "name": "first-bolt-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "migrate": "node dbMigrations.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "@slack/bolt": "^3.19.0",
+    "@slack/socket-mode": "^2.0.0",
+    "@slack/web-api": "^7.3.1",
+    "axios": "^1.7.2",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.10.3",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.15.0",
+    "sharp": "^0.33.4"
+  }
+}
